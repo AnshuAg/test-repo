@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "inside hook"
+if [[ 2 > 1 ]];
+then
+        echo "committing"
+        exit 0
+
+else
+	echo "sorry"
+        exit 0
+
+fi
